@@ -1,0 +1,3 @@
+[Server]
+host = your_server_connection_host_here
+port = your_server_connection_port_here

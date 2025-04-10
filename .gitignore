@@ -1,0 +1,41 @@
+# Build outputs
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.ipdb
+*.iobj
+*.idb
+*.tlog
+*.log
+*.tmp
+*.bak
+
+# IDE junk
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.vcxproj.user
+*.pro.user
+
+# VS / Qt / CMake junk
+.vs/
+.vscode/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Project-specific
+build/
+Debug/
+Release/
+x64/
+
+# Configs
+*.ini
+!.config/*.example
