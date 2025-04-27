@@ -11,12 +11,14 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     src/ChatWidget.cpp \
+    src/CryptoUtils.cpp \
     src/LoginWidget.cpp \
     src/MainWindow.cpp \
     src/NetworkConfig.cpp
 
 HEADERS += \
     include/ChatWidget.h \
+    include/CryptoUtils.h \
     include/LoginWidget.h \
     include/MainWindow.h \
     include/NetworkConfig.h
